@@ -1,18 +1,16 @@
-# bioinformatics-sequence-toolkit
+# DNA_Tensor_Lab
 
-> **Data Engineering for Biological Sequences**
-> Memory-efficient Python utilities for processing large-scale genomic and protein data.
-> Bridges traditional software engineering logic with high-performance biological data structures.
+> **Tensor Engineering for Biological Sequences**
+> Converting real human protein data into PyTorch tensors —
+> the foundational step of a Latent-based Directed Evolution (LDE) pipeline.
 
 ---
 
 ## 🧬 About This Repository
 
-This toolkit is part of the **Kelvinintech** AI Engineering portfolio, built along the career arc:
+Part of the **Kelvinintech** AI Engineering portfolio.
 
-**Diesel Mechanic → Software Engineer → AI Engineer (Bioinformatics)**
-
-Every script in this repo treats biological data the way a software engineer would treat any high-performance system:
+**Career Arc: Diesel Mechanic → Software Engineer → AI Engineer (Bioinformatics)**
 
 - **DNA** = Source Code
 - **Proteins** = Compiled Executables
@@ -23,12 +21,11 @@ Every script in this repo treats biological data the way a software engineer wou
 
 ## 📁 Repository Structure
 ```
-bioinformatics-sequence-toolkit/
+DNA_Tensor_Lab/
 ├── labs/
 │   └── dna_tensor_lab/
 │       ├── dna_tensor_lab.ipynb
 │       └── README.md
-├── utils/
 ├── data/
 │   └── .gitkeep
 ├── README.md
@@ -37,9 +34,7 @@ bioinformatics-sequence-toolkit/
 
 ---
 
-## 🔬 Labs
-
-### Lab 001 — DNA Tensor Lab
+## 🔬 Lab 001 — DNA Tensor Lab
 
 **Dataset:** UniProt Swiss-Prot (Human) — 20,431 reviewed protein sequences
 
@@ -53,6 +48,12 @@ bioinformatics-sequence-toolkit/
 
 **LDE Connection:**
 First stage of a Latent-based Directed Evolution pipeline — converting raw biological sequences into tensor format for downstream VAE and Transformer models.
+
+---
+
+## 🔗 Repository
+
+🔗 https://github.com/kelvintechnical/DNA_Tensor_Lab.git
 
 ---
 
@@ -70,13 +71,13 @@ First stage of a Latent-based Directed Evolution pipeline — converting raw bio
 
 ## 🚀 Getting Started
 ```bash
-git clone https://github.com/kelvintechnical/bioinformatics-sequence-toolkit.git
-cd bioinformatics-sequence-toolkit
+git clone https://github.com/kelvintechnical/DNA_Tensor_Lab.git
+cd DNA_Tensor_Lab
 pip install torch biopython numpy pandas
 ```
 
 Dataset: 🔗 https://www.uniprot.org/uniprotkb?query=reviewed:true&format=fasta
-Place `.fasta` file in `data/` folder — not committed to Git.
+Place `.fasta` file in `data/` — not committed to Git.
 
 ---
 
